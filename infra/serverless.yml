@@ -1,0 +1,15 @@
+service: clinical-cds-functions
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.11
+  region: us-east-1
+
+functions:
+  ocrWorker:
+    handler: handler.ocr_worker
+    timeout: 30
+  cdsWorker:
+    handler: handler.cds_worker
+    timeout: 30
