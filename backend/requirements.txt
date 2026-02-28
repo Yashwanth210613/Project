@@ -2,7 +2,7 @@ fastapi==0.115.0
 uvicorn[standard]==0.30.6
 python-multipart==0.0.9
 sqlalchemy==2.0.35
-psycopg2-binary==2.9.9
+psycopg2-binary==2.9.11
 passlib[bcrypt]==1.7.4
 python-jose[cryptography]==3.3.0
 pydantic-settings==2.5.2
@@ -12,7 +12,7 @@ pytesseract==0.3.13
 rapidfuzz==3.9.7
 scikit-learn==1.5.2
 transformers==4.44.2
-torch==2.4.1
+torch==2.6.0
 langdetect==1.0.9
 Pillow==10.4.0
 email-validator==2.2.0
